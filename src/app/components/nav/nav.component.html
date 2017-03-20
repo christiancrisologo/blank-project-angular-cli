@@ -9,7 +9,8 @@
       </button>
       <div class="navbar-brand-header">
         <span class="navbar-brand" href="#">
-          <!--<span src="assets/images/geco-logo.png" class="logo" ></span>-->  {{appTitle}}
+           {{appTitle}}
+          <!--<img src="assets/img/logo.png" class="logo" />-->
           <small> {{appSubTitle}}</small>
         </span>
       </div> 
@@ -29,10 +30,11 @@
         </li>
 
       </ul>
-      <ul class="  nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
 
- 
-
+        <li >
+          <a [routerLink]="login" > Login </a>
+        </li>
 
       </ul>
     </div><!--/.nav-collapse -->

@@ -115,6 +115,7 @@ body {
   color: $text-color;
   background-color: white;
   padding: 10px auto;
+  text-align: center;
 }
 
 
@@ -125,16 +126,17 @@ body {
 
 @media (min-height: 1009px) {
   .mastfoot {
-    //position: fixed;
-    //bottom: 80px;
+    
+    position: fixed;
+    bottom: 80px;
   }
 
 }
 
 @media (min-height: 1010px) {
   .mastfoot {
-    //position: fixed;
-    //bottom: 0;
+    position: fixed;
+    bottom: 0;
   }
 
 }
@@ -167,11 +169,16 @@ body {
 
 .navbar-brand-header{
   display: inline;
-  img.logo{
-    display: inline;
-    width: 50px;
-    height: 20px;
-    margin-right: 20px;
+  .navbar-brand{
+    
+    background-color: darkgray;
+    color: white;
+
+    img.logo{
+      display: inline;
+      width: 50px;
+      height: 50px; 
+    }
   }
 
 }
